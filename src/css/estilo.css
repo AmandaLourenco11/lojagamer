@@ -11,3 +11,18 @@
     }
 
 }
+
+.titulo{
+    background-image: linear-gradient(to right, #a204fd, #c87bdd, #a204fd);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+}
+
+.titulo:hover{
+    animation: acender 0.5s forwars;
+
+}
